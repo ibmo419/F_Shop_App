@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  --primary-white:#FFF;
+  --primary-orange:orange;
+  --primary-dark:rgba(78, 77, 77, 0);
+  --primary-red:#ef4035;
+  --primary-hover-red:#f33501;
+}
+body{
+  font-family: "Roboto Condenced" , sans-serif;
+}
+/*************************************NAVBAR****************************************************/
+nav{
+  z-index: 2;
+  
+}
+nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor:pointer;
+  font-size: 0.8rem;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  margin-right:0.75rem;
+  margin-left:0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+.navbar-nav > li > a.active , .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li >a:hover {
+  border-top: 0.1875rem solid var(--primary-orange);
+
+}
